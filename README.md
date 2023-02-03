@@ -49,3 +49,15 @@ python3 manage.py migrate
 ```
 python3 manage.py runserver
 ```
+
+добавлена библиотека 
+```
+pip install pyyaml 
+```
+
+Запустите процесс генерации документа:
+```
+python3 manage.py generateschema > schema.yaml 
+```
+
+просмотр доков schema.yaml
