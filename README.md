@@ -61,3 +61,8 @@ python3 manage.py generateschema > schema.yaml
 ```
 
 просмотр доков schema.yaml
+
+Установить библиотеку django-cors-headers
+```
+(venv)...$ pip install django-cors-headers 
+```
